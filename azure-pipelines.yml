@@ -35,11 +35,11 @@ steps:
       command: 'restore'
       project: '**/*.csproj'
 
-  - temaplate: templates/build.yaml
+  - template: templates/build.yaml
     parameters:
       buildConfiguration: 'Debug'
 
-  - temaplate: templates/build.yaml
+  - template: templates/build.yaml
     parameters:
       buildConfiguration: 'Release'
   
